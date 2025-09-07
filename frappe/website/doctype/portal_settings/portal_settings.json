@@ -56,23 +56,13 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2024-03-23 16:03:34.722063",
+ "modified": "2025-09-07 12:14:24.921579",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Portal Settings",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "print": 1,
-   "read": 1,
-   "role": "Website Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],

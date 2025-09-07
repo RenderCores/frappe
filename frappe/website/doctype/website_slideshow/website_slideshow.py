@@ -16,9 +16,7 @@ class WebsiteSlideshow(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from frappe.website.doctype.website_slideshow_item.website_slideshow_item import (
-			WebsiteSlideshowItem,
-		)
+		from frappe.website.doctype.website_slideshow_item.website_slideshow_item import WebsiteSlideshowItem
 
 		header: DF.HTMLEditor | None
 		slideshow_items: DF.Table[WebsiteSlideshowItem]

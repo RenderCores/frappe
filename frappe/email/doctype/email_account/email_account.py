@@ -104,9 +104,7 @@ class EmailAccount(Document):
 		send_notification_to: DF.SmallText | None
 		send_unsubscribe_message: DF.Check
 		sent_folder_name: DF.Data | None
-		service: DF.Literal[
-			"", "Frappe Mail", "GMail", "Sendgrid", "SparkPost", "Yahoo Mail", "Outlook.com", "Yandex.Mail"
-		]
+		service: DF.Literal["", "Frappe Mail", "GMail", "Sendgrid", "SparkPost", "Yahoo Mail", "Outlook.com", "Yandex.Mail"]
 		signature: DF.TextEditor | None
 		smtp_port: DF.Data | None
 		smtp_server: DF.Data | None

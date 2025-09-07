@@ -35,8 +35,6 @@ class PreparedReport(Document):
 		filters: DF.SmallText | None
 		job_id: DF.Data | None
 		peak_memory_usage: DF.Int
-		queued_at: DF.Datetime | None
-		queued_by: DF.Data | None
 		report_end_time: DF.Datetime | None
 		report_name: DF.Data
 		status: DF.Literal["Error", "Queued", "Completed", "Started"]

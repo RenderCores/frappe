@@ -35,54 +35,15 @@ class ServerScript(Document):
 		api_method: DF.Data | None
 		cron_format: DF.Data | None
 		disabled: DF.Check
-		doctype_event: DF.Literal[
-			"Before Insert",
-			"Before Validate",
-			"Before Save",
-			"After Insert",
-			"After Save",
-			"Before Rename",
-			"After Rename",
-			"Before Submit",
-			"After Submit",
-			"Before Cancel",
-			"After Cancel",
-			"Before Discard",
-			"After Discard",
-			"Before Delete",
-			"After Delete",
-			"Before Save (Submitted Document)",
-			"After Save (Submitted Document)",
-			"Before Print",
-			"On Payment Authorization",
-			"On Payment Paid",
-			"On Payment Failed",
-			"On Payment Charge Processed",
-			"On Payment Mandate Charge Processed",
-			"On Payment Mandate Acquisition Processed",
-		]
+		doctype_event: DF.Literal["Before Insert", "Before Validate", "Before Save", "After Insert", "After Save", "Before Rename", "After Rename", "Before Submit", "After Submit", "Before Cancel", "After Cancel", "Before Discard", "After Discard", "Before Delete", "After Delete", "Before Save (Submitted Document)", "After Save (Submitted Document)", "Before Print", "On Payment Authorization", "On Payment Paid", "On Payment Failed", "On Payment Charge Processed", "On Payment Mandate Charge Processed", "On Payment Mandate Acquisition Processed"]
 		enable_rate_limit: DF.Check
-		event_frequency: DF.Literal[
-			"All",
-			"Hourly",
-			"Daily",
-			"Weekly",
-			"Monthly",
-			"Yearly",
-			"Hourly Long",
-			"Daily Long",
-			"Weekly Long",
-			"Monthly Long",
-			"Cron",
-		]
+		event_frequency: DF.Literal["All", "Hourly", "Daily", "Weekly", "Monthly", "Yearly", "Hourly Long", "Daily Long", "Weekly Long", "Monthly Long", "Cron"]
 		module: DF.Link | None
 		rate_limit_count: DF.Int
 		rate_limit_seconds: DF.Int
 		reference_doctype: DF.Link | None
 		script: DF.Code
-		script_type: DF.Literal[
-			"DocType Event", "Scheduler Event", "Permission Query", "API", "Workflow Task"
-		]
+		script_type: DF.Literal["DocType Event", "Scheduler Event", "Permission Query", "API", "Workflow Task"]
 	# end: auto-generated types
 
 	def validate(self):

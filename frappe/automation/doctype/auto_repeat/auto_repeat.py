@@ -55,9 +55,7 @@ class AutoRepeat(Document):
 		assignee: DF.TableMultiSelect[AutoRepeatUser]
 		disabled: DF.Check
 		end_date: DF.Date | None
-		frequency: DF.Literal[
-			"", "Daily", "Weekly", "Fortnightly", "Monthly", "Quarterly", "Half-yearly", "Yearly"
-		]
+		frequency: DF.Literal["", "Daily", "Weekly", "Fortnightly", "Monthly", "Quarterly", "Half-yearly", "Yearly"]
 		generate_separate_documents_for_each_assignee: DF.Check
 		message: DF.Text | None
 		next_schedule_date: DF.Date | None

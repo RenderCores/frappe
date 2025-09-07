@@ -151,26 +151,13 @@
    "link_fieldname": "server_script"
   }
  ],
- "modified": "2025-09-02 11:11:07.528661",
+ "modified": "2025-09-07 12:12:35.429156",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "Server Script",
  "naming_rule": "Set by user",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Script Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",

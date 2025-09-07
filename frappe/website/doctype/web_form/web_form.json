@@ -429,22 +429,13 @@
  "icon": "icon-edit",
  "is_published_field": "published",
  "links": [],
- "modified": "2024-12-30 17:00:05.944646",
+ "modified": "2025-09-07 12:14:56.546164",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Web Form",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Website Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],

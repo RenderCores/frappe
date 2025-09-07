@@ -18,26 +18,14 @@
   }
  ],
  "links": [],
- "modified": "2024-03-23 16:01:29.982660",
+ "modified": "2025-09-07 12:13:13.316727",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Color",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Website Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "quick_entry": 1,
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],

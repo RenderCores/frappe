@@ -46,9 +46,7 @@ class AutoEmailReport(Document):
 		data_modified_till: DF.Int
 		day_of_week: DF.Literal["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 		description: DF.TextEditor | None
-		dynamic_date_period: DF.Literal[
-			"", "Daily", "Weekly", "Monthly", "Quarterly", "Half Yearly", "Yearly"
-		]
+		dynamic_date_period: DF.Literal["", "Daily", "Weekly", "Monthly", "Quarterly", "Half Yearly", "Yearly"]
 		email_to: DF.SmallText
 		enabled: DF.Check
 		filter_meta: DF.Text | None

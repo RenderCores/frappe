@@ -46,25 +46,13 @@
  ],
  "icon": "icon-list",
  "links": [],
- "modified": "2024-03-23 16:03:27.650255",
+ "modified": "2025-09-07 12:14:46.470112",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Help Category",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Website Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],

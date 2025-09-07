@@ -20,9 +20,7 @@ class WebsiteTheme(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from frappe.website.doctype.website_theme_ignore_app.website_theme_ignore_app import (
-			WebsiteThemeIgnoreApp,
-		)
+		from frappe.website.doctype.website_theme_ignore_app.website_theme_ignore_app import WebsiteThemeIgnoreApp
 
 		background_color: DF.Link | None
 		button_gradients: DF.Check
